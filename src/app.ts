@@ -139,7 +139,7 @@ export class App {
    */
   private createDOMStructure(): void {
     // Clear container
-    this.container.innerHTML = '';
+    this.container.innerHTML  =  '';
 
     // Create video element for webcam
     this.videoElement = document.createElement('video');
